@@ -1,0 +1,10 @@
+{
+  "name": "@merokudao/dappstorekit-cli",
+  "version": "1.0.0",
+  "description": "CLI to Perform various stuff related to app publishing using dApp Store Kit",
+  "main": "index.js",
+  "repository": "https://github.com/merokudao/dappstorekit-cli",
+  "author": "Meroku Monks",
+  "license": "MIT",
+  "private": true
+}
