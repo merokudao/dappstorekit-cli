@@ -11,6 +11,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.14.6",
     "mocha": "^10.2.0",
+    "npm-run-all": "^4.1.5",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
@@ -24,6 +25,7 @@
     "test:prettier": "prettier 'src/**/*.ts' --list-different",
     "test:lint": "eslint src --ext .ts",
     "test": "run-s build test:*",
+    "lint": "run-s test:lint",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier --write .",
     "fix:lint": "eslint src --ext .ts --fix",
